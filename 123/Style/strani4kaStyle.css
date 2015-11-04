@@ -5,15 +5,17 @@
 
 body {
 	font: 1em 'PT Sans',Arial,Helvetica,sans-serif;
-	background: url(http://wallbox.ru/wallpapers/main/201121/26bc7624c8b3d125a5d9fa820d4d7fcb.jpg);
+	background: url(http://wallbox.ru/wallpapers/main/201121/26bc7624c8b3d125a5d9fa820d4d7fcb.jpg) top left; 
 	color: #333;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	margin: 0;
 	background-size: cover;
+	
 }
 
 .container{
 	width: 941px;
+	height: auto;
 	margin: 0 auto;
 }
 
@@ -79,8 +81,8 @@ header{
 	margin-top: 20px;
 	color: #333;
 	font-weight: bold;
-	text-shadow: 1px 1px 2px white, 0 0 1em red,
-					 0px -5px 35px yellow, 0 0 1em blue;
+	text-shadow: 1px 1px 2px gray, 0 0 1em maroon,
+					 0px -5px 35px green, 0 0 1em blue;
 }
 
 .search{
@@ -94,9 +96,10 @@ header{
 
 .slider{
 	height: 220px;
-	background: url(http://ucelgroup.com/menu-urun/zemin/beefloor-urunleri/b2/301%20800.png);
+	background: url(http://36.media.tumblr.com/a5a1f6667ea28d771b3e0968dd674c22/tumblr_mtahyupeYG1sijkz7o1_1280.jpg);		/*http://ucelgroup.com/menu-urun/zemin/beefloor-urunleri/b2/301%20800.png*/
 	background-repeat: no-repeat;
 	background-size: cover;
+	/*background-size: auto;*/
 	box-shadow: 0 5px 5px rgba(0,0,0,.2);
 }
 
@@ -129,6 +132,8 @@ header{
 	margin-bottom: 1px;
 }
 
+
+}
 .sidebar nav ul li a:hover{
 	background: #aaa;
 }
@@ -147,6 +152,7 @@ h2 .abs{
 	color:white;
 	padding: 0 100px;
 	margin-bottom: 50px;
+	font-weight: bold;
 }
 
 .footer{
@@ -154,10 +160,18 @@ h2 .abs{
 	text-align: center;
 	border-top:1px dashed #FF6347;
 	padding: 10px 0;
+	font-style: italic;
 }
 
+tr{
+	height: 200px;
+	width: 150px;
+	padding: 0 100px;
+}
 
 
 b{
 	color: #66ffcc;
+	text-decoration: underline;
+	text-shadow: 1px 1px 1px blue, 0 0 1em maroon;
 }
