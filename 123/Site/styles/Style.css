@@ -11,12 +11,15 @@ body {
 	margin: 0;
 	background-size: cover;
 	
+	overflow: visible;
 }
 
 .container{
 	width: 941px;
+	/*width: 90%;*/
 	height: auto;
 	margin: 0 auto;
+	margin-bottom:0;
 }
 
 /* CSS
@@ -81,12 +84,13 @@ header{
 	margin-top: 20px;
 	color: #333;
 	font-weight: bold;
-	text-shadow: 1px 1px 2px gray, 0 0 1em maroon,
-					 0px -5px 35px green, 0 0 1em blue;
+	text-shadow: 1px 1px 2px black, 0 0 1em maroon,
+					 0px -5px 35px white, 0 0 1em violet;
 }
 
 .search{
 	margin-top: 80px;
+
 }
 
 .search input{
@@ -94,6 +98,15 @@ header{
 	height: 30px;
 }
 
+button{
+	margin-left:800px;
+	float:right;
+	position:relative;
+	background:purple;
+	float:right;
+	width: 500px;
+	height: 300px;
+}
 .slider{
 	height: 220px;
 	background: url(http://36.media.tumblr.com/a5a1f6667ea28d771b3e0968dd674c22/tumblr_mtahyupeYG1sijkz7o1_1280.jpg);		/*http://ucelgroup.com/menu-urun/zemin/beefloor-urunleri/b2/301%20800.png*/
@@ -107,11 +120,13 @@ header{
 	box-shadow: 0 30px 30px rgba(0,0,0,.2);
 }
 
-.sidebar{
-	padding: 0;
-	margin: 0;
+	
+/*.sidebar{     
+	padding: 0;     
+	margin: 0;     
 	box-shadow: 0 0px 13px rgba(0,0,0,.2);
-}
+	margin-top:0; 
+}*/
 
 .sidebar nav ul{
 	padding: 0;
@@ -130,48 +145,87 @@ header{
 	text-align: center;
 	line-height: 40px;
 	margin-bottom: 1px;
-}
+	}
 
 
-}
 .sidebar nav ul li a:hover{
 	background: #aaa;
-}
-
+	}
+#back-to{
+	width: 200px;
+	height: 40px;
+	text-decoration: underline;
+	background:white;
+	margin-bottom: 1px;}
 .content{
 	color:white;
 	padding: 0 50px;
-	margin-bottom: 60px;
-}
+	margin-bottom: 0px;
+	}
 
 p{
 	text-align: justify;
-}
+	}
 
 h2 .abs{
 	color:white;
 	padding: 0 100px;
 	margin-bottom: 50px;
 	font-weight: bold;
-}
+	}
 
 .footer{
 	color: #FFFFF0;
 	text-align: center;
 	border-top:1px dashed #FF6347;
 	padding: 10px 0;
+	margin: auto -200px;
 	font-style: italic;
-}
+	}
 
 tr{
 	height: 200px;
 	width: 150px;
 	padding: 0 100px;
-}
+	}
 
 
 b{
 	color: #66ffcc;
 	text-decoration: underline;
 	text-shadow: 1px 1px 1px blue, 0 0 1em maroon;
+	}
+
+table{
+	/*overflow:hidden;*/
+	/*float:none;*/
+	width: auto;
+	height: 240px;
+	/*display:block-inline;*/
+/*	margin-left:-70px;*/
+	/*position:absolute;*/
+	margin:auto auto -100px auto auto ;
+	
+	}
+
+#back-to{
+	background:white;
+	width: 200px;
+	height: 40px;
+	}
+
+.back-to{
+	background:white;
+	width: 200px;
+	height: 40px;
+
+	}
+
+
+img{
+/*	style.left = (parent.offsetWidth - this.offsetWidth ) / 2 + 'px'
+*/
+	display:absolute:
+	left:-110px;
+
 }

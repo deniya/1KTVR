@@ -1,0 +1,21 @@
+.container{
+	position:center;
+	margin:10px auto;
+	color: blue;
+	width: 500px;
+	height: auto;
+}
+
+h2{
+	margin-bottom: 30px;
+}
+
+.form-control {
+	height: auto;
+	margin-bottom:0px;
+}
+
+.form-control #content #title{
+	height: auto;
+	margin-bottom:0px;
+}
