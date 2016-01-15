@@ -1,6 +1,6 @@
 'use strict';
 
-//alert("Hello, World!");
+//
 
 function valid(){
 	//alert ('hello');
