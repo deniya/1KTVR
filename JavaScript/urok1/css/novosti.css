@@ -4,6 +4,9 @@
 	color: blue;
 	width: 500px;
 	height: auto;
+	color: darkviolet;
+	background: lightblue;
+	margin-bottom: 20px;
 }
 
 h2{
@@ -18,4 +21,11 @@ h2{
 .form-control #content #title{
 	height: auto;
 	margin-bottom:0px;
+}
+
+.btn{
+	margin-bottom: 20px;
+	border-color:blue;
+	background-color:black;
+	color: yellow;
 }
