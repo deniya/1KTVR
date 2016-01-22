@@ -10,7 +10,6 @@ body {
 	background-repeat: repeat;
 	margin: 0;
 	background-size: cover;
-	
 	overflow: visible;
 }
 
@@ -156,7 +155,8 @@ button{
 	height: 40px;
 	text-decoration: underline;
 	background:white;
-	margin-bottom: 1px;}
+	margin-bottom: 1px;
+	}
 .content{
 	color:white;
 	padding: 0 50px;

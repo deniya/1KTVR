@@ -1,15 +1,6 @@
 'use strict';
 //alert("Hello, World!");
 
-
-var divs = document.getElementsByTagName("div");
-	document.getElementById('count').innerHTML='In the document there are '+divs.length+' tags \"div\"'
-var n = 0;
-for (var i=0; i<divs.length;i++){
-	if(divs[i].hasAttribute('class')) n++;
-}
-document.getElementById('countAttr').innerHTML='From which the class has '+n;
-
 function valid(){
 	console.log("Function valid's on");
 	var title = document.getElementById("title");
@@ -62,7 +53,6 @@ function valid(){
 		invalidTitle.className = "none-invalid";
 	}
 
-
 	if(genderP.value == " --your gender-- "){
 		genderP.className+=" invalid";
 		valid = false;
@@ -71,27 +61,23 @@ function valid(){
 		invalidTitle.className = "none-invalid";
 	}
 
-
-
 	alert("Hurray, You have published it!");
 	return valid;
 
 }
-//function valid(){
-	//if(title.class = "invalid")
+
 
 var d = new Date();
 	var date = document.getElementById("date");
 		date.value = ("0" + d.getDate()).slice(-2)+"."+("0" + (d.getMonth() + 1)).slice(-2)+"."+d.getFullYear()+" -//- "+d.getHours()+":"+d.getMinutes()+":"+("0" + (d.getSeconds() + 1)).slice(-2);
-//console.log(d);
-//console.log(divs);
 
-// var gender = new Array('male', 'female', 'Wish to be');
-// var sel=document.getElementById('gender');
-// for (var i=0; i <= gender.length; i++){
-// 	if (0==i)sel.options[i]=new Option('','',true,false);  //
-// 	sel.options[i]=new Option(gender[i-1],i-1,false,false);
-// }
+
+var gender = new Array('male', 'female', 'Wish to be');
+var sel=document.getElementById('gender');
+for (var i=0; i <= gender.length; i++){
+	if (0==i)sel.options[i]=new Option('','',true,false);  //
+		sel.options[i]=new Option(gender[i-1],i-1,false,false);
+}
 
 //	document.getElementById("date").innerHTML = d.getDate()+"."+d.getMonth()+"."+d.getFullYear()+" // "+d.getHours()+":"+d.getMinutes()+":"+d.getSeconds();
 

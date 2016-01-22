@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <!--<link rel="stylesheet" href="css/spisok.css"> -->
+  <link rel="stylesheet" href="styles/newsList.css">
 
 </head>
 <body>
@@ -19,15 +19,44 @@
       <option value="str1"> Строка списка 1 </option>
       <option value="str2"> Строка списка 2 </option>
     </select>
-    
-    
+
   </form>
 
-  
+
+  <table>
+    <caption>table title and/or explanatory text</caption>
+    <thead>
+      <tr>
+        <th>header</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>data</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table>
+    <tr>
+      <td>Header</td>
+      <td cellspan = '3'></td>
+    </tr>
+    <tr>
+      <td>Date</td>
+      <td></td>
+      <td>Author</td>
+      <td></td>  
+    </tr>
+    <tr>
+      <td cellspan = '4'></td>
+    </tr>
+  </table>
+
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="js/spisok.js"></script>
+<script src="js/newsList.js"></script>
 </body>
 </html>

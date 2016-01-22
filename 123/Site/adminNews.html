@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Login Form</title>
+  <title>Administration</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/index.css">
-
+  <link rel="stylesheet" href="styles/adminNews.css">
+  
+  
 </head>
 <body>
 
 <div class="container">
   <h2>Authorize, please</h2>
-  <form role="form" method="POST" action="novosti.html" onsubmit="return valid()" required>
+  <form role="form" method="POST" action="newsAdd.html" onsubmit="return valid()" required>
     <div class="form-group">
       <label for="email">Email:</label>
       <input type="email" class="form-control" id="email" placeholder="Enter email" required>
@@ -25,7 +26,7 @@
   </form>
 </div>
 
-<script src="js/index.js"></script>
+<script src="js/adminNews.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>

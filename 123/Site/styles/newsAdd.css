@@ -54,3 +54,17 @@ h2{
 #chooseGender{
 	margin-bottom: 12px;
 }
+
+.footer{
+	text-align: center;
+}
+
+nav{
+	margin-left: 130px;
+		margin-top: 40px;
+
+
+}
+nav a{
+	color: darkred;
+}
