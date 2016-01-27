@@ -10,53 +10,46 @@
 </head>
 <body>
 
-<div class="container">
+<div class="container" id="1cont">
   <h2>List of added news</h2>
+
   <form class="form" name="newsList" id="newsList">
-
     <select id="mySelectId" name="mySelect">
-      <option value="str0"> Строка списка 0 </option>
-      <option value="str1"> Строка списка 1 </option>
-      <option value="str2"> Строка списка 2 </option>
+      <option value="str1"> Lorem 1 </option>
+      <option value="str2"> Lorem 2 </option>
+      <option value="str3"> Lorem 3 </option>
     </select>
-
   </form>
 
-
-  <table>
-    <caption>table title and/or explanatory text</caption>
-    <thead>
-      <tr>
-        <th>header</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>data</td>
-      </tr>
-    </tbody>
+<h4>News 1</h4>
+  <table frame='box'>
+    <tr>
+      <th>Header</th>
+      <td cellspan = '1'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
+      <th>Theme</th>
+      <td cellspan = '1'>Lorem ipsum dolor sit amet, consectetur adipisicing.</td>
+    </tr>
+    <tr>
+      <th id='date'>Date</th>
+      <td cellspan='3'></td>
+      <th>Author</th>
+      <td id='author'>Lorem ipsum dolor.</td>
+    </tr>
   </table>
-
-  <table>
-    <tr>
-      <td>Header</td>
-      <td cellspan = '3'></td>
-    </tr>
-    <tr>
-      <td>Date</td>
-      <td></td>
-      <td>Author</td>
-      <td></td>  
-    </tr>
-    <tr>
-      <td cellspan = '4'></td>
+  <table class="tableContent" frame:"below">
+    <tr class='contentFull'>
+      <th class='contentHead'>Content</th>
+      <td id="news1content" cellspan = '4' class='contentCSS'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat voluptate ducimus at saepe ratione in, unde deserunt totam quia corporis nostrum sint suscipit eum tempora harum veniam iusto esse, temporibus exercitationem! Doloremque quos eaque vero laborum inventore nostrum quis distinctio delectus ipsa dolores earum, tempore illum beatae, porro sunt. Aliquid illum nisi veniam, iure possimus ab, explicabo fuga alias, at voluptas recusandae aperiam magnam earum commodi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint architecto voluptas minima voluptatibus eum, quibusdam iste cumque explicabo illum, quae. Aspernatur possimus, amet ad illo consequatur explicabo praesentium sunt, tenetur reprehenderit perferendis nobis nam, nemo incidunt dolorum quis tempora adipisci, iste temporibus neque libero ducimus vel officiis! Quia perspiciatis molestiae voluptas velit aliquid quasi expedita. Qui ex numquam ipsam dolor dolores cum, nostrum tenetur hic cupiditate excepturi neque quisquam id commodi distinctio! Accusantium hic quo minus nobis, adipisci quaerat quas itaque. Vel, beatae, illum. Molestias, rerum explicabo enim fugit quibusdam.</td>
     </tr>
   </table>
 
 </div>
 
+
+
+<script src="/js/newsList.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="js/newsList.js"></script>
+
 </body>
 </html>

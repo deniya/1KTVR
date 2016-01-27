@@ -13,6 +13,7 @@ function valid(){
 	var invalidAuthor = document.getElementById("invalidAuthor");
 	var invalidContent = document.getElementById("invalidContent");
 	var invalidDate = document.getElementById("invalidDate");
+	var invalidGender = document.getElementById("invalidGender")
 	var valid = true;
 
 	if(title.value == ""){
@@ -29,8 +30,8 @@ function valid(){
 		invalidTheme.className = "invalidP";
 		valid = false;
 	}else{
-		title.className="form-control";
-		invalidTitle.className = "none-invalid";
+		theme.className="form-control";
+		invalidTheme.className = "none-invalid";
 	}
 
 	if(author.value == ""){
@@ -40,8 +41,8 @@ function valid(){
 		//if (author.className==" invalid"){
 		//	document.getElementById("invalidP").style.visibility='visible';
 	}else{
-		title.className="form-control";
-		invalidTitle.className = "none-invalid";
+		author.className="form-control";
+		invalidAuthor.className = "none-invalid";
 	}
 
 	if(content.value == ""){
@@ -49,20 +50,23 @@ function valid(){
 		invalidContent.className = "invalidP";
 		valid = false;
 	}else{
-		title.className="form-control";
-		invalidTitle.className = "none-invalid";
+		content.className="form-control";
+		invalidContent.className = "none-invalid";
 	}
-
+/*
 	if(genderP.value == " --your gender-- "){
 		genderP.className+=" invalid";
+		invalidGender.className = "invalidP";
 		valid = false;
 	}else{
-		title.className="form-control";
-		invalidTitle.className = "none-invalid";
+		genderP.className="form-control";
+		invalidGender.className = "none-invalid";
 	}
 
-	alert("Hurray, You have published it!");
+*/
+
 	return valid;
+	
 
 }
 

@@ -1,4 +1,77 @@
-.table .tr .td{
-	position: relative;
-	border: 1px blue;
+body{
+	background-color: white;
+}
+.container{
+	margin-top: 10px;
+}
+.container #1cont{
+	margin-top:40px;
+}
+
+.form{
+	margin-top: 30px;
+	height: 50px;
+	font-size: 28px;
+}
+
+table {
+	margin-top:10px;
+    width: 100%;
+    border: 4px double black;
+    border-collapse: collapse;
+    border-bottom: none;
+    border-left-style: dotted;
+    border-right-style: dotted;
+   }
+
+h4{
+	margin-bottom: 10px;
+}
+
+td {
+	width: 320px;
+	height:50px;
+    padding: 7px;
+    border: 1px black;
+   }
+
+thead{
+	border: 4px black;
+}
+
+th{
+	width: 5%;
+	text-align: center;
+    background: #ccc;
+    padding: 5px;
+    border: 2px black;
+}
+
+.tableContent{
+	margin-top: 0px;
+	border: 4px black;
+	border-top:none;
+	;
+}
+.contentFull{
+	border:4px double black;
+	border-collapse: collapse;
+	margin-bottom: 30px;
+}
+
+.contentHead{
+	width:10px;
+	padding:2px;
+	height:170px;
+}
+
+.contentCSS{
+	overflow:auto;
+	display:inline-block;
+	width: 1070px;
+	height: 170px;
+	color:#10bae7;
+	background-color: #ffffdb;
+
+
 }
