@@ -68,10 +68,12 @@ th{
 .contentCSS{
 	overflow:auto;
 	display:inline-block;
-	width: 1070px;
+	width: auto;
 	height: 170px;
 	color:#10bae7;
 	background-color: #ffffdb;
+	text-align:justify;
+	padding: 10px;
 
 
 }

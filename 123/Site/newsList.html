@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<div class="container" id="1cont">
+<div class="container" id="container">
   <h2>List of added news</h2>
 
   <form class="form" name="newsList" id="newsList">
@@ -21,32 +21,34 @@
     </select>
   </form>
 
+<div id='arTable'>
 <h4>News 1</h4>
-  <table frame='box'>
+  <table frame='box' >
     <tr>
       <th>Header</th>
-      <td cellspan = '1'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
+      <td id='arHeader'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
       <th>Theme</th>
-      <td cellspan = '1'>Lorem ipsum dolor sit amet, consectetur adipisicing.</td>
+      <td id='arTheme'>Lorem ipsum dolor sit amet, consectetur adipisicing.</td>
     </tr>
     <tr>
-      <th id='date'>Date</th>
-      <td cellspan='3'></td>
+      <th>Date</th>
+      <td id='arDate'></td>
       <th>Author</th>
-      <td id='author'>Lorem ipsum dolor.</td>
+      <td id='arAuthor'>Lorem ipsum dolor.</td>
     </tr>
   </table>
   <table class="tableContent" frame:"below">
     <tr class='contentFull'>
-      <th class='contentHead'>Content</th>
-      <td id="news1content" cellspan = '4' class='contentCSS'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat voluptate ducimus at saepe ratione in, unde deserunt totam quia corporis nostrum sint suscipit eum tempora harum veniam iusto esse, temporibus exercitationem! Doloremque quos eaque vero laborum inventore nostrum quis distinctio delectus ipsa dolores earum, tempore illum beatae, porro sunt. Aliquid illum nisi veniam, iure possimus ab, explicabo fuga alias, at voluptas recusandae aperiam magnam earum commodi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint architecto voluptas minima voluptatibus eum, quibusdam iste cumque explicabo illum, quae. Aspernatur possimus, amet ad illo consequatur explicabo praesentium sunt, tenetur reprehenderit perferendis nobis nam, nemo incidunt dolorum quis tempora adipisci, iste temporibus neque libero ducimus vel officiis! Quia perspiciatis molestiae voluptas velit aliquid quasi expedita. Qui ex numquam ipsam dolor dolores cum, nostrum tenetur hic cupiditate excepturi neque quisquam id commodi distinctio! Accusantium hic quo minus nobis, adipisci quaerat quas itaque. Vel, beatae, illum. Molestias, rerum explicabo enim fugit quibusdam.</td>
+      <!-- <th class='contentHead'>Content</th> // ctrl+/ -->
+      <td id="arContent" class='contentCSS'><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat voluptate ducimus at saepe ratione in, unde deserunt totam quia corporis nostrum sint suscipit eum tempora harum veniam iusto esse, temporibus exercitationem! Doloremque quos eaque vero laborum inventore nostrum quis distinctio delectus ipsa dolores earum, tempore illum beatae, porro sunt. Aliquid illum nisi veniam, iure possimus ab, explicabo fuga alias, at voluptas recusandae aperiam magnam earum commodi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint architecto voluptas minima voluptatibus eum, quibusdam iste cumque explicabo illum, quae. Aspernatur possimus, amet ad illo consequatur explicabo praesentium sunt, tenetur reprehenderit perferendis nobis nam, nemo incidunt dolorum quis tempora adipisci, iste temporibus neque libero ducimus vel officiis! Quia perspiciatis molestiae voluptas velit aliquid quasi expedita. Qui ex numquam ipsam dolor dolores cum, nostrum tenetur hic cupiditate excepturi neque quisquam id commodi distinctio! Accusantium hic quo minus nobis, adipisci quaerat quas itaque. Vel, beatae, illum. Molestias, rerum explicabo enim fugit quibusdam.</strong></td>
     </tr>
   </table>
-
 </div>
 
+<div id='arTable'>
+</div>
 
-
+</div>
 <script src="/js/newsList.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

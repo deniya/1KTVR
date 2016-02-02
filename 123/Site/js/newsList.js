@@ -1,45 +1,55 @@
 'use strict';
 
-function addblock(){
-	var artitle = new Array();
-	var artheme = new Array();
-	var arauthor = new Array();
-	var arcontent = new Array();
-	var ardate = new Array();
+	var arTitle = new Array();
+	var arTheme = new Array();
+	var arAuthor = new Array();
+	var arContent = new Array();
+	var arDate = new Array();
 
-	var table = "<table>";
-
+	var Table = "<div><table id='arTable'><th>Header</th>;  //to4no li snaruzhi dolzno bqt'?
 	for (var i =0; i < ar.length; i++){
-		table+= "<tr>"
-		table+= "<th>"
-		table+= "</th>"
-		table+= "<td cellspan='1'>"
-		table+= "</td>"
-		table+= "<th>"
-		table+= "</th>"
-		table+= "<td cellspan='1'>"
-		table+= "</td>"
-		table+= "</tr>"
-		table+= "<th>"
-		table+= "</th>"
-		table+= "<td cellspan = '3'>"
-		table+= "</td>"
-		table+= "<th>"
-		table+= "</th>"
-		table+= "<td id='author'>"
-		table+= "</td>"
-		table+= "</tr>"
+		Table+= "<tr>";
+		Table+= "<td>"+arTitle[i];
+		Table+= "</td>";
+		Table+= "<th>Theme</th>";
+		Table+= "<td>"+arTheme[i];
+		Table+= "</td>";
+		Table+= "</tr>";
+		Table+= "<tr>";
+		Table+= "<th>Date</th>";
+		Table+= "<td>"+arDate[i];
+		Table+= "</td>";
+		Table+= "<th>Author</th>";
+		Table+= "<td>"+arAuthor[i];
+		Table+= "</td>";
+		Table+= "</tr>";
 	}
-	table+= "</table>"
+	Table+= "</table>";
 
-	var table = "<table class='tableContent' frame:'below'>";
+	var Table = "<table class='tableContent' frame:'below'>";
 	for (var i =0; i < ar.length; i++){
-		table+= "<tr class='contentFull'>"
-		table+= "<th class='contentHead'>"
-		table+= "</th>"
-		table+= "<td cellspan = '4' class='contentCSS'>"
-		table+= "</td>"
-		table+= "</tr>"
+		Table+= "<tr class='contentFull'>";
+		Table+= "<th class='contentHead'>";
+		Table+= "</th>";
+		Table+= "<td>"+arContent[i];
+		Table+= "</td>";
+		Table+= "</tr>";
+
+	Table+= "</table>";
+	Table+= "</div>";
+
+
+	var Table=getElementById('Table');
+		Table.innerHTML=Table;
+
+/*
+	var str = '<table>';
+	for (var i=0; i<ar.length;i++){
+		str+='<tr>';
+		str+='<td>'+mos1[i]+'</td>';
+		str+='<td>'+mos2[i]+'</td>';
+		str+='<tr><td>'+mos3[i]+'</td>';
+		str+='<td>'+mos4[i]+'</td></tr>';
 	}
-	table+= "</table>"
-	table+= "</div>"
+		str+='</table>';
+*/
