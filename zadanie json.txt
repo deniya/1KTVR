@@ -1,0 +1,6 @@
+massiv index.js
+
+
+1tund.json
+
+nastroit vqzov informacii iz faila (kopirovanie iz faila v js, prisvoit zna4enie peremennoy 'data', iz neje brat infu i vstavljat)

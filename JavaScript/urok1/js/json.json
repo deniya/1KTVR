@@ -1,0 +1,21 @@
+xhr.responseText={
+	"mass1":[{
+			'id':1;
+			'name': "Peter",
+			'age':21
+		}],
+		[{	'id':2,
+			'name':"Ivan",
+			'age':22
+		}], [{}],
+	'mass2':[{
+
+	}]
+}
+
+//data = JSON.parse(xhr.responseText);
+
+//data.mass1[0].name;
+
+// object []
+// array-massiv {}

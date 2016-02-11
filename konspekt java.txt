@@ -1,0 +1,13 @@
+int a =1  |.|,|.|,|.|,|.|,|.|,|.|,|.|
+int b =a
+b+1 != a  // a ne izmenitsja
+
+ssqlo4nqe massivq
+int[]a
+int[]b=a
+b[6]=1
+a[6]=1
+
+
+int x=12;
+byte y=(byte)x;

@@ -1,0 +1,18 @@
+{
+'person':[
+	{'id':1,
+	'name': 'Vassily',
+	'family': 'Petrov',
+	'age': 21},
+
+	{'id':2,
+	'name': 'Yan',
+	'family': 'Tamm',
+	'age': 20},
+
+	{'id':3,
+	'name': 'Svetlana',
+	'family': 'Tomme',
+	'age': 22}
+]
+}

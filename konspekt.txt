@@ -1,0 +1,35 @@
+HTML
+JS
+JSON (tekstovqy format obmena dannqmi, na JS)
+Angular (script, biblioteka framework)
+AJAX (server)
+
+
+magija - javlenie, kotoroe ne vosprinimaemo obq4nqm polzovatelem
+
+model
+kontroller - upravljajushiy element [komanda-vqpolnenie]
+
+
+
+
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+     document.getElementById("demo").innerHTML = xhttp.responseText;
+    }
+  };
+  xhttp.open("GET", "ajax_info.txt", true);
+  xhttp.send();
+}
+
+new XMLHttpRequest();  [novqy asinhronnqy zapros]
+.status; - vozvrat zna4enie   [cifra - polu4ilos, owibka - sootvetstvenno net]
+.readyState == 4;  [polu4il dannqe]
+.responseText;  [vozvrashenie otveta na zapros]
+
+.open("zapros"), "otkuda-kuda obrashaetsja", true[asinhronnaja pereda4a dannqh]);
+.send(); - posqlaet zapros vnewnemu isto4niku
+
+format pereda4i dannqh: XML [roditel HTML, tegi mozno sozdavat samomu (v HTML tegi standartizovannq)]
