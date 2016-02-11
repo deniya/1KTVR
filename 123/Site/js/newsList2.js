@@ -6,7 +6,7 @@ function getTable(data){
     var strTable = "<table id='strTable'>";
     for (var i =0; i < data.content.length; i++){     //ukazqvat objazatelno, 4to .content, esli 4erez JSON file
         strTable+= "<tr>";
-        strTable+= "<th class='ids'>ID</th>";
+        strTable+= "<th id='ids'>ID</th>";
         strTable+= "<td>"+data.content[i].newsID+"</td>";
         strTable+= "<th>Title</th>";
         strTable+= "<td>"+data.content[i].Header+"</td>";
@@ -17,8 +17,8 @@ function getTable(data){
         strTable+= "<th>Author</th>";
         strTable+= "<td>"+data.content[i].Author+"</td>";
         strTable+= "</tr>";
-        strTable+= "<tr class='contentFull'>";
-        strTable+= "<td class='contentCSS' colspan='4'>"+data.content[i].Text+"</td>";
+        strTable+= "<tr id='contentFull'>";
+        strTable+= "<td id='contentCSS' colspan='4'>"+data.content[i].Text+"</td>";
         strTable+= "</tr><br>";
     }
     strTable+= "</table>";
